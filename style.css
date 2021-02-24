@@ -1,13 +1,13 @@
 body{
     background-color: #F2EFE9;
     margin: 0;
-    padding: 0 15%;
     color: #0F0326;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px; 
 }
 
 
 h1{
-   
     font-size: 100px;
     color: #904E55;
     text-align: center;
@@ -15,7 +15,77 @@ h1{
 }
 
 h2{
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Dancing Script', cursive;
     color: #904E55;
+}
+
+li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+
+.section a, a:link, a:visited{
+    color: #0F0326;
+}
+
+ul{
+    text-align: center;
+}
+
+.fotomarie{
+    border-radius: 50%;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+footer{
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #904E55;
+    color:#F2EFE9;
+}
+
+.footer a:visited{
+    color:#F2EFE9;
+}
+
+section{
+    padding: 0px 20%;
+}
+
+table{
+    border: 2px solid #904E55;
+    border-spacing: 0;
+}
+
+th {
+    border-bottom: 1px solid #904E55;
+}
+
+td{
+    padding: 0 20px;
+}
+
+.dovednosti li, .dalsizkusenosti li{
+    text-align: left;
+    display: list-item;
+    list-style-type: circle;
+}
+
+.vzdelani p{
+    margin: 5px;
+}
+
+.pracovnizkusenosti ul, li, .vzdelani ul, li{
+    text-align: left;
+    margin: 5px;
+}
+
+.pracovnizkusenosti p, li{
+    margin: 5px;
 }
