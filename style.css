@@ -26,13 +26,8 @@ li{
     margin-right: 50px;
 }
 
-
-.kontakty a{
-    color: #0F0326;
-}
-/* Řádek navíc */
-.kontakty a:visited{
-    color: #0F0326;
+.kontakty a:-webkit-any-link{
+    color:#0F0326;
 }
 
 ul{
